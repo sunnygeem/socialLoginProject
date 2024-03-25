@@ -1,2 +1,2 @@
 # socialLoginProject
-- server IP: 54.180.82.29
+- server IP: 172.31.34.75
