@@ -5,7 +5,7 @@ import cors from 'cors';
 import { ping } from './controller/system.js';
 import { getAllUsers } from './lib/userInfo.js';
 
-const serverPort = 3000;
+const serverPort =  3000;
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
