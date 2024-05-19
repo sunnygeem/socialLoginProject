@@ -13,7 +13,7 @@ app.use(cors());
 const router = express.Router();
 
 router.route('/ping').get(ping);
-router.route('/all-users'.get(getAllUsers));
+router.route('/all-users').get(getAllUsers);
 
 app.use('/socialLoginProject/api/v1',router);
 app.listen(serverPort);
